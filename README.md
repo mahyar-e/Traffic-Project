@@ -65,9 +65,7 @@ This project explores percolation theory, cluster formation, and fractal analysi
 ### Example Results
 
 - Percolation threshold behavior as function of p
+![download](https://github.com/mahyar-e/Traffic-Project/assets/78594407/0368b254-632b-4b73-a9be-20f38266eb5a)
 
-- Cluster visualizations showing connected open sites
-
-- Largest cluster extraction highlighting percolation
-
-- Fractal dimension estimation of clusters near the threshold
+- Cluster visualizations showing connected open site and argest cluster extraction highlighting percolation
+![download (1)](https://github.com/mahyar-e/Traffic-Project/assets/78594407/4318f345-095b-47ff-b1fb-364a7ed9f19b)
