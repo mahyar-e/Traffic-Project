@@ -22,9 +22,9 @@ This project explores percolation theory, cluster formation, and fractal analysi
 
 - Site percolation with adjustable probability p
 
-Cluster detection via depth-first search (DFS)
+- Cluster detection via depth-first search (DFS)
 
-Extraction of the largest percolating cluster
+- Extraction of the largest percolating cluster
 
 - Ensemble simulations for statistical averaging
 
