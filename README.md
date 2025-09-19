@@ -9,3 +9,41 @@ Analysis of traffic evolution using percolation method.
 First, the critical parameter, p, is calculated for different sizes of grids. Then, the fractal dimension of the largest clusters for each size of lattices is calculated. But first we have to find the largest cluster.
 
 This project is unfinished.
+
+
+
+🌀 Percolation & Fractal Dimension Simulation
+
+This project explores percolation theory, cluster formation, and fractal analysis using Monte Carlo simulations. It generates random lattices, applies percolation thresholds, detects clusters, and analyzes their statistical and geometric properties.
+
+✨ Features
+
+Random lattice generation (n × n grids).
+
+Site percolation with adjustable probability p.
+
+Cluster detection via depth-first search (DFS).
+
+Extraction of the largest percolating cluster.
+
+Ensemble simulations for statistical averaging.
+
+Probability density estimation (KDE) & Gaussian smoothing.
+
+Fractal dimension analysis with box-counting.
+
+Visualizations using Matplotlib, PIL, and NetworkX.
+
+📂 Project Structure
+
+make_lattice(n) → generate random lattice.
+
+change_lattice(lattice, p) → apply percolation threshold.
+
+find_clusters(grid) → detect connected clusters.
+
+percolation_with_ensemble(n, k=100) → run multiple simulations.
+
+make_bool_largest_cluster(n, p) → isolate largest cluster.
+
+box_counting_fractal_dimension(binary_array) → estimate fractal dimension.
