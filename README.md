@@ -33,3 +33,41 @@ This project explores percolation theory, cluster formation, and fractal analysi
 - Fractal dimension analysis with box-counting
 
 - Visualizations using Matplotlib, PIL, and NetworkX
+
+
+### Project Structure
+
+- make_lattice(n) → generate random lattice
+
+- change_lattice(lattice, p) → apply percolation threshold
+
+- find_clusters(grid) → detect connected clusters
+
+- percolation_with_ensemble(n, k=100) → run multiple simulations
+
+- make_bool_largest_cluster(n, p) → isolate largest cluster
+
+- box_counting_fractal_dimension(binary_array) → estimate fractal dimension
+
+
+##### Inside the notebook, you can:
+
+- Generate lattices of any size
+
+- Vary percolation probability p
+
+- Visualize clusters and percolating structures
+
+- Estimate fractal dimension via box-counting
+
+
+
+### Example Results
+
+- Percolation threshold behavior as function of p
+
+- Cluster visualizations showing connected open sites
+
+- Largest cluster extraction highlighting percolation
+
+- Fractal dimension estimation of clusters near the threshold
