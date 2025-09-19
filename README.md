@@ -12,38 +12,24 @@ This project is unfinished.
 
 
 
-🌀 Percolation & Fractal Dimension Simulation
+# Percolation & Fractal Dimension Simulation
 
 This project explores percolation theory, cluster formation, and fractal analysis using Monte Carlo simulations. It generates random lattices, applies percolation thresholds, detects clusters, and analyzes their statistical and geometric properties.
 
-✨ Features
+### Features
 
-Random lattice generation (n × n grids).
+- Random lattice generation (n × n grids)
 
-Site percolation with adjustable probability p.
+- Site percolation with adjustable probability p
 
-Cluster detection via depth-first search (DFS).
+Cluster detection via depth-first search (DFS)
 
-Extraction of the largest percolating cluster.
+Extraction of the largest percolating cluster
 
-Ensemble simulations for statistical averaging.
+- Ensemble simulations for statistical averaging
 
-Probability density estimation (KDE) & Gaussian smoothing.
+- Probability density estimation (KDE) & Gaussian smoothing
 
-Fractal dimension analysis with box-counting.
+- Fractal dimension analysis with box-counting
 
-Visualizations using Matplotlib, PIL, and NetworkX.
-
-📂 Project Structure
-
-make_lattice(n) → generate random lattice.
-
-change_lattice(lattice, p) → apply percolation threshold.
-
-find_clusters(grid) → detect connected clusters.
-
-percolation_with_ensemble(n, k=100) → run multiple simulations.
-
-make_bool_largest_cluster(n, p) → isolate largest cluster.
-
-box_counting_fractal_dimension(binary_array) → estimate fractal dimension.
+- Visualizations using Matplotlib, PIL, and NetworkX
